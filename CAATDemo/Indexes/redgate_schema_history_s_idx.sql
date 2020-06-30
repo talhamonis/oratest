@@ -1,0 +1,1 @@
+CREATE INDEX "CAATDemo"."redgate_schema_history_s_idx" ON "CAATDemo"."redgate_schema_history"("success");
