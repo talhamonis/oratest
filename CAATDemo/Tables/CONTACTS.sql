@@ -6,6 +6,7 @@ CREATE TABLE "CAATDemo".contacts (
   phone VARCHAR2(20 BYTE),
   customer_id NUMBER,
   test01 NUMBER,
+  test02 NUMBER,
   PRIMARY KEY (contact_id),
   CONSTRAINT fk_contacts_customers FOREIGN KEY (customer_id) REFERENCES "CAATDemo".customers (customer_id) ON DELETE CASCADE
 );
